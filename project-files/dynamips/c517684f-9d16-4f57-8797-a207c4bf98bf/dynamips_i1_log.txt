@@ -1,0 +1,29 @@
+Apr 16 20:56:09.915 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Apr 16 20:56:09.917 HYPERVISOR: Started on IP = localhost, TCP port = 52436.
+Apr 16 20:56:10.273 HYPERVISOR: exec_cmd: hypervisor version 
+Apr 16 20:56:10.274 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\MONTASER YOUSUF\GNS3\projects\MajorTask1\project-files\dynamips 
+Apr 16 20:56:10.284 GENERAL: working_dir=C:\Users\MONTASER YOUSUF\GNS3\projects\MajorTask1\project-files\dynamips
+Apr 16 20:56:10.285 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\MONTASER YOUSUF\GNS3\projects\MajorTask1\project-files\dynamips\c517684f-9d16-4f57-8797-a207c4bf98bf 
+Apr 16 20:56:10.286 GENERAL: working_dir=C:\Users\MONTASER YOUSUF\GNS3\projects\MajorTask1\project-files\dynamips\c517684f-9d16-4f57-8797-a207c4bf98bf
+Apr 16 20:56:10.287 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Apr 16 20:56:10.291 VM: VM R1 created.
+Apr 16 20:56:10.293 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Apr 16 20:56:10.294 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Apr 16 20:56:10.295 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 16 20:56:10.295 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Apr 16 20:56:10.298 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/MONTASER YOUSUF/GNS3/images/IOS/c7200-spservicesk9-mz.150-1.M.image 
+Apr 16 20:56:10.299 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Apr 16 20:56:10.301 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Apr 16 20:56:10.302 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Apr 16 20:56:10.304 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Apr 16 20:56:10.463 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/MONTASER YOUSUF/GNS3/images/IOS/c7200-spservicesk9-mz.150-1.M.image 
+Apr 16 20:56:34.439 HYPERVISOR: exec_cmd: nio create_udp udp-777d2e00-f094-4e7b-899a-58360cb6ea0c 10002 127.0.0.1 10003 
+Apr 16 20:56:34.787 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-777d2e00-f094-4e7b-899a-58360cb6ea0c 
+Apr 16 20:56:34.789 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 16 20:57:28.895 HYPERVISOR: exec_cmd: vm get_status R1 
+Apr 16 20:57:28.895 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R1 0 0 
+Apr 16 20:57:28.899 HYPERVISOR: exec_cmd: nio delete udp-777d2e00-f094-4e7b-899a-58360cb6ea0c 
+Apr 16 20:58:25.950 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/MONTASER YOUSUF/GNS3/images/IOS/c7200-spservicesk9-mz.150-1.M.image 
+Apr 16 20:59:38.236 HYPERVISOR: exec_cmd: nio create_udp udp-1e530b50-ea3d-4283-8ff3-9709c4f9f6ac 10002 127.0.0.1 10003 
+Apr 16 20:59:38.243 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-1e530b50-ea3d-4283-8ff3-9709c4f9f6ac 
+Apr 16 20:59:38.245 HYPERVISOR: exec_cmd: vm get_status R1 
