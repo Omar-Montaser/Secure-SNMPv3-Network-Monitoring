@@ -54,23 +54,6 @@ If you want a PDF output:
 - Write denial with read-only user
 - Wireshark decryption after SNMP user table provisioning
 
-## Evidence Snapshots
-
-### Environment and Setup
-![Installed tools](screenshots/task1_q1_installed_software.png)
-![GNS3 topology](screenshots/task1_q6_gns3_topology.png)
-
-### SNMPv1/v2c Validation
-![Initial traps](screenshots/task1_q9_initial_traps.png)
-![MIB walk](screenshots/task1_q10_mib_walk.png)
-![SNMPv2c capture](screenshots/task1_q11_wireshark_capture.png)
-
-### SNMPv3 Security Validation
-![SNMPv3 groups](screenshots/task2_q8_show_snmp_group.png)
-![SNMPv3 set success/failure context](screenshots/task2_q14_set_failure_user2.png)
-![Encrypted traffic before keys](screenshots/task2_q3_wireshark_encrypted.png)
-![Decrypted traffic after keys](screenshots/task2_q6_wireshark_decrypted.png)
-
 ## Security Notes
 
 - SNMPv1/v2c community strings are plaintext and should not be used on untrusted networks.
